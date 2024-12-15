@@ -1,3 +1,8 @@
 /**
 * Lightbox
 */
+
+dialog::backdrop {
+    background: rgb(105, 61, 2);
+    animation: fond 2s forwards;
+}
