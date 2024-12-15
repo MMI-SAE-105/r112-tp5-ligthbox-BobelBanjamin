@@ -12,3 +12,23 @@ dialog::backdrop {
     padding: 30px;
     animation: open 1s forwards;
 }
+
+@keyframes fond {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 60%;
+    }
+}
+
+@keyframes open {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
